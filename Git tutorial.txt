@@ -1,0 +1,19 @@
+------------ setup git / add file git ---------------------
+1.git init ตามด้วยชื่อfile name ที่เราจะต้องสร้าง
+2.git status
+3.git add . 
+  git add [filename]
+4.git config --global user.name "[name]"
+  git config --global user.email "[email]"
+  git config --global --unset-all user.name/email
+5.git commit -m "[massage] "
+6.git log --all --decorate --oneline --graph
+
+------------ local repo and remote repo -----------------------
+7.git remote add origin [url git]
+8.git push origin [branchname]
+9.git clone [url git]
+10.git pull origin [branchname]
+11.git branch [branchname]
+12.git checkout [branchname]
+13.git merge [branch name] [branch name]
